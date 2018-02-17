@@ -1,18 +1,22 @@
 welcome: # this is the #welcome bloc referenced in index.js
   - typing: true
     text: # Picks one randomly
-      - Hey there!
-      - Hello {{user.first_name}}
+      - Hi I'm Kiko!
+      - Hi there {{user.first_name}}
       - Good day :)
-  - text: This is just a regular Hello World, I don't do anything ;)
+  - text: If you are bored and need to spice up your life. ;)
     typing: 2s
-  - text: Make sure to check out the 'index.js' file to see how I work
+  - text: My jokes might be a good thing!
     typing: true
-  - wait: 5s
-  - text: You can say goodbye now
+  - wait: 3s
+  - text: just type "yes" if you would like to hear my joke and it will be a changing moment for you!
     typing: 1s
 
-goodbye:
-  - text: You are leaving because of reason {{reason}}
+jokes:
+  - text: "Chuck Norris uses a night light. Not because Chuck Norris is afraid of the dark, but the dark is afraid of Chuck Norris."
     typing: true
-  - Hope to see you back again soon! # if no other properties, you can just send a strings
+
+goodbye:
+  - text: Do you like it!
+    typing: true
+  - Don't forget to like my page for more jokes! :) # if no other properties, you can just send a strings
