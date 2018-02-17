@@ -4,11 +4,11 @@
 
 hostname: "https://95d29608.ngrok.io/" # MESSENGER_HOST
 
-applicationID: "815871605249936" # MESSENGER_APP_ID
-accessToken: "EAALmBZBk2l5ABAPECal8LkWbTJofcYk6CZB04RlEjRAXizAo4j4gw8c744b5rEuItcuujZCoZBZAIKK9kGO7LLZApJeBz44gw91vgeMBd1P2rEmecZAzAgYbV7KmzhL4wocciZCbGjZAcKStfFF97jPnTuFGKLoZApg5lLrBfBCBBhdQZDZD" # MESSENGER_ACCESS_TOKEN
-appSecret: "028199799be17d2fed2aa16e91de9d4c" # MESSENGER_APP_SECRET
+applicationID: "" # MESSENGER_APP_ID
+accessToken: "" # MESSENGER_ACCESS_TOKEN
+appSecret: "" # MESSENGER_APP_SECRET
 
-verifyToken: "123456" # MESSENGER_VERIFY_TOKEN
+verifyToken: "" # MESSENGER_VERIFY_TOKEN
 
 displayGetStarted: true
 greetingMessage: "Hello"
