@@ -13,8 +13,8 @@ welcome: # this is the #welcome bloc referenced in index.js
     typing: 1s
 
 jokes:
-  - typing: true
-  -text: My joke is {{joke}}
+  - text: My joke is {{joking}}
+    typing: true
 
 goodbye:
   - text: Do you like it!
