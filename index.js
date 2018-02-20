@@ -26,17 +26,16 @@ const getRequestAPI = () => {
   return "http://api.icndb.com/jokes/random"
 }
 
-const requestAPI = getRequestAPI();
-const res = JSON.parse(syncRequest('GET', requestAPI).body);
-
-console.log("The joke is: " + res.value.joke);
-
-const mess = res.value.joke;
-
 module.exports = function(bp) {
   // Listens for a first message (this is a Regex)
   // GET_STARTED is the first message you get on Facebook Messenger
 
+const requestAPI = getRequestAPI();
+const res = JSON.parse(syncRequest('GET', requestAPI).body);
+
+//console.log("The joke is: " + res.value.joke);
+
+const mess = res.value.joke;
 
   bp.hear(/GET_STARTED|hello|hi|test|hey|holla/i, (event, next) => {
     event.reply('#welcome') // See the file `content.yml` to see the block
