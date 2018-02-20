@@ -2,13 +2,13 @@
 # This is regular YAML syntax. See http://docs.ansible.com/ansible/YAMLSyntax.html
 # You can override these settings with ENV variables. They are commented below.
 
-hostname: "https://95d29608.ngrok.io/" # MESSENGER_HOST
+hostname: "https://db2c3e14.ngrok.io" # MESSENGER_HOST
 
-applicationID: "" # MESSENGER_APP_ID
-accessToken: "" # MESSENGER_ACCESS_TOKEN
-appSecret: "" # MESSENGER_APP_SECRET
+applicationID: "815871605249936" # MESSENGER_APP_ID
+accessToken: "EAALmBZBk2l5ABAL1vlHNLZBZBIRn7uyN51gNBPJnDUjGHEZC2HPFGQVx1rvS0C4HIikA6JHx80trtiLl1hLxJ8vVRRn4ZBA9zlOWQl0Ht2E2Bk6BZBDNdt8EeR77y4tJCR5behSBpDGK6wTqeESbTHooHBwkla6d7JPlM3y3K1CgZDZD" # MESSENGER_ACCESS_TOKEN
+appSecret: "08178d090fb6de87e7f05cc3b0525692" # MESSENGER_APP_SECRET
 
-verifyToken: "" # MESSENGER_VERIFY_TOKEN
+verifyToken: "123456" # MESSENGER_VERIFY_TOKEN
 
 displayGetStarted: true
 greetingMessage: "Hello"

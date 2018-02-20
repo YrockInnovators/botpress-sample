@@ -7,7 +7,9 @@
     "botpress": "1.x",
     "botpress-messenger": "^2.2.10",
     "botpress-web": "1.x",
-    "sqlite3": "^3.1.8"
+    "json-parser": "^1.1.5",
+    "sync-request": "^5.0.0",
+    "then-request": "^5.0.0"
   },
   "scripts": {
     "start": "botpress start",

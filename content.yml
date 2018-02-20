@@ -13,8 +13,8 @@ welcome: # this is the #welcome bloc referenced in index.js
     typing: 1s
 
 jokes:
-  - text: "Chuck Norris uses a night light. Not because Chuck Norris is afraid of the dark, but the dark is afraid of Chuck Norris."
-    typing: true
+  - typing: true
+  -text: My joke is {{joke}}
 
 goodbye:
   - text: Do you like it!
